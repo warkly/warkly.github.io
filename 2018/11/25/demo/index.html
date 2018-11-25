@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="">
+<html lang="zh-CN">
 <head>
     
 
@@ -26,7 +26,7 @@
     <link rel="stylesheet" type="text/css" href="/css/my.css">
 
     <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
-</head>
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
 </head>
 
@@ -179,6 +179,10 @@
 </a>
 <a href="#!" class="tooltipped" data-tooltip="QQ联系我: 1181062873" data-position="top" data-delay="50">
     <i class="fa fa-qq"></i>
+</a>
+
+<a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+    <i class="fa fa-rss"></i>
 </a>
 </div>
 </div>
@@ -407,7 +411,7 @@
 
 <div id="article-share">
     
-    <div class="social-share" data-disabled="qzone, qq, weibo, douban"></div>
+    <div class="social-share" data-disabled="qzone" data-wechat-qrcode-helper="<p>微信里点“发现”->“扫一扫”二维码便可查看分享。</p>"></div>
     
 </div>
 
@@ -415,8 +419,8 @@
 
             <div class="reprint">
                 <p>
-                    <span class="reprint-tip">Reprint please specify: </span>
-                    <a href="http://yoursite.com" class="b-link-green">陆之渊 | Blog</a>
+                    <span class="reprint-tip">转载请注明: </span>
+                    <a href="https://warkly.github.io" class="b-link-green">陆之渊 | Blog</a>
                     <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
                     <a href="/2018/11/25/demo/" class="b-link-green">demo</a>
                 </p>
@@ -438,7 +442,7 @@
     <div class="row article-row">
         
         <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge left-badge text-color">Previous</div>
+            <div class="article-badge left-badge text-color">上一篇</div>
             <div class="card">
                 <a href="/2018/11/25/demo-1/">
                     <div class="card-image">
@@ -469,7 +473,7 @@
         
         
         <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">Next</div>
+            <div class="article-badge right-badge text-color">下一篇</div>
             <div class="card">
                 <a href="/2018/11/25/hello-world/">
                     <div class="card-image">
@@ -521,6 +525,10 @@
 <a href="#!" class="tooltipped" data-tooltip="QQ联系我: 1181062873" data-position="top" data-delay="50">
     <i class="fa fa-qq"></i>
 </a>
+
+<a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+    <i class="fa fa-rss"></i>
+</a>
 </div>
     </div>
 </footer>
@@ -532,8 +540,8 @@
 <div id="searchModal" class="modal">
     <div class="modal-content">
         <div class="search-header">
-            <span class="title">Search</span>
-            <input type="search" id="searchInput" name="s" placeholder="Please enter a search keyword" class="search-input" autofocus>
+            <span class="title">搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字" class="search-input" autofocus>
         </div>
         <div id="searchResult"></div>
     </div>
