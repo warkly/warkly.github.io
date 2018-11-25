@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://warkly.github.io/"/>
-  <updated>2018-11-25T11:10:22.684Z</updated>
+  <updated>2018-11-25T09:12:23.774Z</updated>
   <id>https://warkly.github.io/</id>
   
   <author>
@@ -15,34 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>demo</title>
-    <link href="https://warkly.github.io/2018/11/25/demo-1/"/>
-    <id>https://warkly.github.io/2018/11/25/demo-1/</id>
-    <published>2018-11-25T11:10:22.000Z</published>
-    <updated>2018-11-25T11:10:22.684Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>demo</title>
-    <link href="https://warkly.github.io/2018/11/25/demo/"/>
-    <id>https://warkly.github.io/2018/11/25/demo/</id>
-    <published>2018-11-25T09:26:05.000Z</published>
-    <updated>2018-11-25T09:26:05.234Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>Hello World</title>
